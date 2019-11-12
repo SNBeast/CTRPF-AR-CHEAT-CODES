@@ -21,12 +21,12 @@ Thank you to JourneyOver for the original repo, without which I wouldn't know th
 4. 
  - If you want the cheats for all the games and generally want everything easier on you (recommended obviously):
    - I. Place the contents from `ActionReplay.zip` into `sd:/luma/plugins/ActionReplay/`.
-   - II. Download this repo and copy the cheats folder to `sd:/`.
+   - II. Download this repo and copy the `cheats` folder to `sd:/`.
   
  - If you want a specific game's cheats and want to make this process hard on yourself:
    - I. Find the game's title ID. You can find the title id of many games [here](http://www.3dsdb.com/) or by doing some shenanigans in GodMode9, but cleaning up this README is already above my paygrade and you shouldn't be following this path anyway. :P
    - II. Place the contents from `ActionReplay.zip` into `sd:/luma/plugins/<Title ID>/`, and rename `ActionReplay.plg` to `plugin.plg`
-   - III. Download this repo and copy the `<Title ID>.txt` in the cheats folder to `sd:/luma/plugins/<Title ID>/`, along side `plugin.plg` from step #II and rename the `<Title ID>.txt` you just copied over to `cheats.txt`.
+   - III. Download this repo and copy the `<Title ID>.txt` in the `cheats` folder to `sd:/luma/plugins/<Title ID>/`, along side `plugin.plg` from step #II and rename the `<Title ID>.txt` you just copied over to `cheats.txt`.
 
 5. Safely eject the SD card, insert it in the 3DS, and start the system.
 
