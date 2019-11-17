@@ -14,7 +14,7 @@ Thank you to JourneyOver for the original repo, without which I wouldn't know th
 
 1. Download `Luma3DS 9.1 - Plugin loader.zip` & `ActionReplay.zip`, and insert the 3DS's SD into the PC.
 
-- `ActionReplay.zip` is in this repository or you can download from [here](http://gbatemp.net/threads/ctrpluginframework-blank-plugin.487729/). `Luma3DS 9.1 - Plugin loader.zip` is in this repository and not in the above post (which still has an outdated build not compatible with newer System Menus).
+- `ActionReplay.zip` and `Luma3DS 9.1 - Plugin loader.zip` are in this repository. Use these ones and not the ones in the CTRPF Blank Plugins GBATemp post (which still has an outdated Luma build not compatible with System Menus 11.8+).
 
 2. Make sure you already installed the latest `Boot9strap` and `Luma CFW` and have a firmware of 11.4 or higher.
 3. Rename any existing `boot.firm` in the root of your SD card to `boot.firm.bak` in case you want to go back, then drag the `boot.firm` from `Luma3DS 9.1 - Plugin loader.zip` into the root of your SD card
