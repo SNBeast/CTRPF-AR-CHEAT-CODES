@@ -42,7 +42,7 @@ Thank you to JourneyOver for the original repo, without which I wouldn't know th
 
 ### Using BOOTNTR
 
- You'll need to know the TitleID of your game. [This site](http://www.3dsdb.com/) may have it. If not, there's some shenanigans you can do in GodMode9 to get it, but cleaning up this README is already above my paygrade :P.
+ You'll need to know the TitleID of your game. [This site](https://hax0kartik.github.io/3dsdb/) may have it. If not, there's some shenanigans you can do in GodMode9 to get it, but cleaning up this README is already above my paygrade :P.
 
 - If you decide to want to use `LUMAS3DS 9.1 Plugin Loader` alongside with `BOOTNTR` follow from the first step otherwise start at the second step!
 
