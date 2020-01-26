@@ -1,3 +1,5 @@
+[++Currency codes++]
+
 [Add $100k when below $200k]
 D3000000 00000000
 38C71DC0 00030D40
@@ -5,6 +7,7 @@ D9000000 08C71DC0
 D4000000 000186A0
 D6000000 08C71DC0
 D2000000 00000000
+{Buy all the things and still get the satisfaction of racking up money!}
 
 [99999 Pokemiles]
 08C8B36C 0001869F
@@ -12,24 +15,34 @@ D2000000 00000000
 [65535 Ash in Soot Sack]
 18C81B54 0000FFFF
 
-[Always wearing Dowsing Machine (Change area or open bag to start effect.)]
+[--]
+
+[++Bike/etc. codes++]
+
+[Always wearing Dowsing Machine]
 08C6E888 0000000B
+{Might crash the game certain areas. Change area or open bag to start effect.}
 
-[Always riding Mach Bike (Change area or open bag to start effect.)]
+[Always riding Mach Bike]
 08C6E888 00000001
+{Might crash the game certain areas. Change area or open bag to start effect.}
 
-[Always riding Acro Bike (Change area or open bag to start effect.)]
+[Always riding Acro Bike]
 08C6E888 00000002
+{Might crash the game certain areas. Change area or open bag to start effect.}
 
-[Repel doesnt wear off (L+R to end) (Might freeze GTS/WT. Turn this off when online. Use any repel to start/restart effect)]
+[--]
+
+[Repel doesnt wear off (L+R to end)]
 88C8546E FF000001
 78C8546E FF0000FB
 28C8546E 000000FA
 DD000000 00000300
 28C8546E 00000001
 D2000000 00000000
+{Might freeze GTS/WT. Turn this off when online. Use any repel to start/restart effect}
 
-[1k+ secret base flags captured (You'll need to set a team name before you can raise your rank.)]
+[1k+ secret base flags captured]
 D3000000 00000000
 38C8F3CC 000003E8
 D9000000 08C8F3CC
@@ -40,9 +53,15 @@ D6000000 08C8F3CC
 DC000000 FFFFFFFC
 D6000000 08C8F3D0
 D2000000 00000000
+{You'll need to set a team name before you can raise your rank. Allows you to advance to Platinum rank all in one go once you reach Fortree}
 
 [Quick egg hatch]
 18C6F975 00000101
+{Needs testing}
+
+[++Nav-Dex Radar codes++]
+
+[++Gender codes++]
 
 [Radar Pokemon is Male, if possible]
 D3000000 082C6C90
@@ -55,6 +74,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Doesn't work on female-only or genderless species. Doesn't work on random/stationary encounters}
 
 [Radar Pokemon is Female, if possible]
 D3000000 082C6C90
@@ -67,6 +87,11 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Doesn't work on male-only or genderless species. Doesn't work on random/stationary encounters}
+
+[--]
+
+[++Ability codes++]
 
 [Radar Pokemon always 1st ability]
 D3000000 082C6C90
@@ -79,6 +104,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Automatically selects correct ability based on species. Doesn't work on random/stationary encounters}
 
 [Radar Pokemon always 2nd ability]
 D3000000 082C6C90
@@ -91,6 +117,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Automatically selects correct ability based on species. Doesn't work on random/stationary encounters}
 
 [Radar Pokemon always Hidden ability]
 D3000000 082C6C90
@@ -103,8 +130,13 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Automatically selects correct ability based on species. Doesn't work on random/stationary encounters}
 
-[Shiny Pokemon with radar (Always) (Must be on when the hidden pokemon appears.)]
+[--]
+
+[++Shininess codes++]
+
+[Shiny Pokemon with radar (Always)]
 D3000000 082C6C90
 C0000000 0000000B
 80000000 FF000000
@@ -115,8 +147,9 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Must be on when the hidden pokemon appears. Doesn't work on random/stationary encounters}
 
-[Shiny Pokemon with radar (Hold R) (Must be on when the hidden pokemon appears.)]
+[Shiny Pokemon with radar (Hold R)]
 D3000000 082C6C90
 C0000000 0000000B
 80000000 FF000000
@@ -129,6 +162,9 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Must be held when the hidden pokemon appears. Doesn't work on random/stationary encounters}
+
+[--]
 
 [Radar Pokemon always 3 star potential]
 D3000000 082C6C90
@@ -141,6 +177,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{Guaranteed multiple perfect IVs. Doesn't work on random/stationary encounters}
 
 [Dex-nav search level 100+ for seen pokemon]
 D3000000 08C82668
@@ -153,8 +190,11 @@ D0000000 00000000
 DC000000 00000002
 D1000000 00000000
 D2000000 00000000
+{Acts as if you encountered each pokemon 100 times or more, giving better natural spawns of that species with the dex-nav}
 
-[Radar Pokemon force species (This code can generate illegal catch conditions)]
+[++Danger zone. These codes are NOT reccomended++]
+
+[Radar Pokemon force species]
 D3000000 082C6C90
 C0000000 0000000B
 80000000 FF000000
@@ -165,8 +205,9 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{WARNING: This code can generate illegal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
 
-[Radar Pokemon force first move (This code can generate illegal catch conditions)]
+[Radar Pokemon force first move]
 D3000000 082C6C90
 C0000000 0000000B
 80000000 FF000000
@@ -177,8 +218,9 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{WARNING: This code can generate illegal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
 
-[Radar Pokemon force level (This code can generate illegal catch conditions)]
+[Radar Pokemon force level]
 D3000000 082C6C90
 C0000000 0000000B
 80000000 FF000000
@@ -189,6 +231,13 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
+{WARNING: This code can generate illegal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
+
+[--]
+
+[--]
+
+[++Item codes++]
 
 [99x Owned Medicine Items]
 D3000000 08C6F5E0
@@ -223,20 +272,32 @@ D0000000 00000000
 DC000000 00000004
 D1000000 00000000
 
+[--]
+
 [999 Rainbow+ pokeblocks]
 D3000000 08C8E9C0
 10000000 000003E7
 D2000000 00000000
+{Because none of the rest really matter}
 
-[Access PC from options button (Hold L and tap the tiny icon in the bottom right of the bottom screen_]
+[No outlines (v.1.4)]
+0037A144 00000000
+
+[Re-enable outlines (v.1.4)]
+0037A144 3F800000
+{Re-activates outlines after the above code}
+
+[Access PC from options button (L)]
 D3000000 00000000
 003D8744 E3A00014
 DD000000 00000200
 003D8744 E3A00004
 D2000000 00000000
+{Hold L and tap the tiny icon in the botom right of the bottom screen - NOT the bigger button on the X menu}
 
 [No collisions (Cycling Road)]
 18C81AFE 00000000
+{Cheese the minigame!}
 
 [Amie puzzle timer 0:00 (except in 'unlimited' difficulty)]
 D3000000 00000000
@@ -246,6 +307,9 @@ D0000000 00000000
 38C692FC 00000003
 08C69300 00000000
 D2000000 00000000
+{May cause crashes in rare cases. Only use while Amie is active}
+
+[++PSS Icon modifiers++]
 
 [PSS Icon = PKMN Center]
 28C81347 00000080
@@ -270,6 +334,10 @@ D2000000 00000000
 
 [PSS Icon = May]
 28C81347 00000026
+
+[--]
+
+[++Other codes++]
 
 [Inf. Money (9,999,999)]
 08C71DB0 0098967F
@@ -1954,3 +2022,5 @@ D2000000 00000000
 B8000178 00000000
 20000EDD 00000001
 D2000000 00000000
+
+[--]
