@@ -1,3 +1,5 @@
+
+
 [Zack Max EXP, HP, Stats & CP (L+R)]
 DD000000 00000300
 0057280E 0000FFFF

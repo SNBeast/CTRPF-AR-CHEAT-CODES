@@ -1,3 +1,37 @@
+[++Code editing required++]
+
+[Namechanger]
+00587974 11112222
+00587978 33334444
+0058797C 55556666
+00587980 77778888
+
+[Ocarina Song Selection]
+20587A14 00000011
+20587A15 00000022
+20587A16 00000033
+
+[Coloured Gauntlets]
+10587A10 00001122
+
+[++Bottles contents++]
+
+[Bottle 1 contents]
+205879F6 00000014
+{14 = empty. Valid content IDs are 15 through 20}
+
+[Bottle 2 contents]
+205879F7 00000014
+{14 = empty. Valid content IDs are 15 through 20}
+
+[Bottle 3 contents]
+205879F8 00000014
+{14 = empty. Valid content IDs are 15 through 20}
+
+[--]
+
+[--]
+
 [500 Rupees]
 1050AF88 000001F4
 105879A0 000001F4
@@ -10,6 +44,7 @@
 DA000000 0058799A
 D7000000 0058799C
 D2000000 00000000
+{Auto-updates to current max hearts}
 
 [Magic bar always full]
 905879A6 FF000000
@@ -20,6 +55,9 @@ D0000000 00000000
 805879A8 FF000000
 2058799F 00000060
 D2000000 00000000
+{Auto-detects current bar level}
+
+[++Time codes++]
 
 [6AM (R+D-Pad Up)]
 DD000000 00000140
@@ -40,6 +78,10 @@ D2000000 00000000
 DD000000 00000180
 10587964 00008000
 D2000000 00000000
+
+[--]
+
+[++Item codes++]
 
 [Infinite Bombchus (Bombchu Bowling Alley)]
 287244B5 0000000A
@@ -140,10 +182,15 @@ DD000000 00000100
 200000C8 00000000
 D2000000 00000000
 
+[--]
+
+[++Gear/collectibles codes++]
+
 [Always have deku shield]
 90587A0E FFEF0000
 F1587A0E 00000010
 D0000000 00000000
+{No more back-tracking if it gets burned}
 
 [Unlock all shields/swords/suits]
 10587A0E 00000777
@@ -164,6 +211,10 @@ D0000000 00000000
 DD000000 00000100
 20587A17 00000030
 
+[--]
+
+[++Ability codes++]
+
 [Unlock Enhanced Defense]
 205879A9 00000001
 
@@ -177,6 +228,12 @@ DD000000 00000200
 205879A8 00000001
 D0000000 00000000
 
+[--]
+
+[++Novelty codes++]
+
+[++Dungeon 'skip' cheats++]
+
 [Infinite Small Keys (All Dungeons)]
 C0000000 00000010
 00587A2C 09090909
@@ -188,6 +245,10 @@ C0000000 00000006
 00587A18 07070707
 DC000000 00000001
 D2000000 00000000
+
+[--]
+
+[++Infinite timers/easy challenges++]
 
 [Freeze timers]
 A0588EBC 00000000
@@ -206,6 +267,8 @@ D0000000 00000000
 
 [Infinite time in heat]
 10588EB8 000000B4
+
+[--]
 
 [Redeads can't immobilize you]
 898F5128 FF000000
@@ -276,3 +339,5 @@ DD000000 00000200
 
 [Change Quest Mode]
 20587966 00000001
+
+[--]

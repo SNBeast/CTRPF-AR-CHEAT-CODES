@@ -6,9 +6,10 @@ D3000000 313A6B78
 D3000000 313A6BE0
 00000000 00000020
 
-[Have all gems for current level (Complete level to apply)]
+[Have all gems for current level]
 D3000000 313A6C0C
 20000000 00000007
+{Complete level to apply}
 
 [999 coins]
 D3000000 31000000
@@ -38,6 +39,7 @@ A0000008 FF000000
 20000008 000000FF
 D0000000 00000000
 D0000000 00000000
+{ZR = start. ZL = end.}
 
 [Invincibility]
 D3000000 00000000

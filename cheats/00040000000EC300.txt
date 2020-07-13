@@ -1,12 +1,8 @@
-[All Heart Containers]
+
+
+[Full Hearts]
 D3000000 14000000
 128B6044 00005050
-D2000000 00000000
-
-[Max/Infinite Health]
-D3000000 168B6044
-D3000001 168B6045
-FC000000 00000001
 D2000000 00000000
 
 [Max Rupees]
@@ -45,11 +41,12 @@ D3000000 14000000
 128B5FA8 00000000
 D2000000 00000000
 
-[Skip Lost Woods Puzzle Go right and up to go to the Master Sword]
+[Skip Lost Woods Puzzle]
 E0692120 00000010
 E59F3004 E3A000FF
 E12FFF1E 00010006
 004EE910 EB068E02
+{Go right and up to go to the Master Sword}
 
 [Instant Text Display]
 D3000000 00000000
@@ -61,23 +58,13 @@ D3000000 00000000
 0036156C E1A00000
 D2000000 00000000
 
-[Infinite Magic]
-D3000000 10000000
-668B9FC8 44160000
-068B9FC8 44160000
-D2000000 00000000
-
-[Max/Infinite Energy Gauge]
-D3000000 16000000
-108B9FCA 00004416
-D2000000 00000000
-
-[Moon Jump Press and hold X You must be walking to move while jumping Is only good to get on cliffs]
+[Moon Jump]
 D3000000 00000000
 0034275C 3CCCCCCD
 DD000000 00000400
 0034275C BCCCCCCD
 D2000000 00000000
+{Press and hold X\nYou must be walking to move while jumping\nIs only good to get on cliffs}
 
 [One Hit Kills]
 D3000000 00000000

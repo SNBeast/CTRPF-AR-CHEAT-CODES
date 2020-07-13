@@ -281,10 +281,21 @@ D2000000 00000000
 {Because none of the rest really matter}
 
 [No outlines (v.1.4)]
+0037A140 00000000
 0037A144 00000000
 
 [Re-enable outlines (v.1.4)]
+0037A140 BF800000
 0037A144 3F800000
+{Re-activates outlines after the above code}
+
+[No outlines (v.1.0)]
+00379EB4 00000000
+00379EB8 00000000
+
+[Re-enable outlines (v.1.0)]
+00379EB4 BF800000
+00379EB8 3F800000
 {Re-activates outlines after the above code}
 
 [Access PC from options button (L)]

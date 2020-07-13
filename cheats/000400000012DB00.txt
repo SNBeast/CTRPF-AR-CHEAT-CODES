@@ -3,6 +3,8 @@ D3000000 1495BDE0
 00000000 0098967F
 D2000000 00000000
 
+[++Battle Codes++]
+
 [Enemy always 1 HP]
 4FFFE24C 14000000
 3FFFE24C 15000000
@@ -18,6 +20,7 @@ D0000000 00000000
 DC000000 00001430
 D1000000 00000000
 D2000000 00000000
+{Easy mode. No, seriously; this kills the fun.}
 
 [0 enemy FP (Enemy AI waits every turn)]
 4FFFE24C 14000000
@@ -25,6 +28,7 @@ D2000000 00000000
 BFFFE24C 00000000
 10000054 00000000
 D2000000 00000000
+{Easy mode. No, seriously; this kills the fun.}
 
 [No enemy boost gauge]
 4FFFE24C 14000000
@@ -32,6 +36,7 @@ D2000000 00000000
 BFFFE24C 00000000
 2000005C 00000000
 D2000000 00000000
+{Its not like they'd get a chance anyway...}
 
 [Active vivosaurs max rank after battle]
 4FFFE240 14000000
@@ -40,14 +45,16 @@ BFFFE240 00000000
 80011B68 00000000
 10011B68 0000270F
 D2000000 00000000
+{Sets battle reward to 9999 FP. Screen incorrectly displays 999. Affects active player vivosaur and that of any selected Paleo Pals.}
 
-[Overcap FP (L) (Needs button press to avoid softlock at the start of your team's turn.)]
+[Overcap FP (L)]
 4FFFE240 14000000
 3FFFE240 15000000
 BFFFE240 00000000
 DD000000 00000200
 10000054 000003E7
 D2000000 00000000
+{SPAM EVERYTHING! Needs button press to avoid softlock at the start of your team's turn.}
 
 [Always max boost gauge]
 4FFFE240 14000000
@@ -55,6 +62,7 @@ D2000000 00000000
 BFFFE240 00000000
 2000005C 0000000A
 D2000000 00000000
+{Guarantees a boost move if you deal damage and the primary target survives.}
 
 [Support shots x99]
 4FFFE240 14000000
@@ -82,11 +90,17 @@ D0000000 00000000
 DC000000 00000210
 D1000000 00000000
 D2000000 00000000
+{Evasion+ is almost too good like this... Also Attack+...}
+
+[--]
+
+[++Rank/License codes++]
 
 [Class S License]
 D3000000 1495BDDB
 20000000 00000006
 D2000000 00000000
+{Because screw having to come back 5 different days of the week}
 
 [Max Warden points]
 D3000000 1495BDDA
@@ -94,6 +108,11 @@ D3000000 1495BDDA
 70000002 000009C3
 10000002 000009C3
 D2000000 00000000
+{Will auto-cap warden rank to fit your liscence when gaining points.}
+
+[--]
+
+[++Challenge route codes++]
 
 [Bone buggy max energy (R)]
 D3000000 006C2124
@@ -107,8 +126,9 @@ D3000000 006C2150
 DB000000 00000004
 D8000000 00000000
 D2000000 00000000
+{Works whenever you're driving a bone buggy, but Challenge routes are where its most beneficial.}
 
-[No fossil eater damage (Fossil eaters dont do damage in challenge routes. Doesnt stop damage during battle. Destroyed fossils delete the node regardless of this code.)]
+[No fossil eater damage (see note)]
 4FFFD8E0 14000000
 3FFFD8E0 15000000
 BFFFD8E0 00000000
@@ -122,30 +142,44 @@ D0000000 00000000
 D0000000 00000000
 D0000000 00000000
 D2000000 00000000
+{Fossil eaters dont do damage in challenge routes. Doesnt stop damage during battle. Destroyed fossils delete the node regardless of this code.}
 
-[Infinite time (Dig as long as you like. Picks can break this code.)]
+[--]
+
+[++Fossil excavation++]
+
+[Infinite time]
 4FFFED58 14000000
 3FFFED58 15000000
 BFFFED58 00000000
 400000C8 41200000
 000000C8 42C70000
 D2000000 00000000
+{Dig as long as you like. Picks can break this code.}
 
-[Ignore [most] damage (Can't prevent damage from the final hit. Picks can break this code.May cause crashes if on during tournaments.)]
+[Ignore [most] damage]
 4FFFED58 14000000
 3FFFED58 15000000
 BFFFED58 00000000
 8000031C 00000000
 1000031C 00000000
 D2000000 00000000
+{Can't prevent damage from the final hit. Picks can break this code.May cause crashes if on during tournaments.}
 
-[Fully excavated (R) (Doesnt remove damage. Use if rogue vivosaur gets too close. Picks might break this code.)]
+[Fully excavated (R)]
 4FFFED58 14000000
 3FFFED58 15000000
 BFFFED58 00000000
 DD000000 00000100
 00000324 0000FFFF
 D2000000 00000000
+{Doesnt remove damage. Use if rogue vivosaur gets too close. Picks might break this code.}
+
+[--]
+
+[++Vivosaur/fossil codes++]
+
+[++Player++]
 
 [Owned vivosaurs at 100%]
 D3000000 1495C4C4
@@ -184,6 +218,7 @@ C0000000 00000003
 D0000000 00000000
 DC000000 00000036
 D1000000 00000000
+{Enables all skills and rare skills. Sets all fossils to 100. Excavate another fossil for the same vivosaur to get the full FP and rank bonus. Does not directly affect Rank or FP. Ignores vivosaurs that dont have diggable fossils.}
 
 [Unselectable skill fix]
 D3000000 1495C4C4
@@ -249,6 +284,11 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000036
 D1000000 00000000
+{Alternative to excavating a second fossil while the 50% code is active.}
+
+[--]
+
+[++Paleo Pal++]
 
 [Unlocked Paleo Pal vivosaurs at 100%]
 D3000000 1495D9B6
@@ -299,6 +339,7 @@ DC000000 00000076
 20000032 00000064
 20000034 00000064
 D0000000 00000000
+{Enables all skills and rare skills for paleo pal vivosaurs. Sets all Paleo Pal fossils to 100. Does not directly affect their rank or FP. Only affects legitimately upgradable vivosaurs. See below for unselectable skill slots.}
 
 [Unselectable skill fix (first vivosaur)]
 D3000000 1495D9B6
@@ -338,6 +379,7 @@ D0000000 00000000
 DC000000 00000004
 D1000000 00000000
 D0000000 00000000
+{Fixes 'bug' created by above code on vivosaurs initially missing a move. Sharing a fossils would normally fix it.}
 
 [Unselectable skill fix (second vivosaur)]
 D3000000 1495D9B6
@@ -379,6 +421,9 @@ D0000000 00000000
 DC000000 00000004
 D1000000 00000000
 D0000000 00000000
+{In case the 'bug' occurs on a pal's vivosur not covered in the above code. Sharing a fossils would normally fix it.}
+
+[++Impossible rare fossil 'fixes'++]
 
 [Kowloon's Zinodious 100%]
 D3000000 1495E826
@@ -387,6 +432,7 @@ C0000000 00000008
 DC000000 00000002
 D1000000 00000000
 D2000000 00000000
+{Normally impossible to upgrade the fossils/unlock the rare fossil skills - but thats stupid considering the player can get them via AR unlock.}
 
 [Olga's Gorgostroika 100%]
 D3000000 1495E89C
@@ -395,6 +441,15 @@ C0000000 00000008
 DC000000 00000002
 D1000000 00000000
 D2000000 00000000
+{Normally impossible to upgrade the fossils/unlock the rare fossil skills - but thats stupid considering the player can get them via AR unlock.}
+
+[--]
+
+[--]
+
+[--]
+
+[++Super Paleo Pal tasks++]
 
 [10+ boost skills used]
 D3000000 1495ED08
@@ -407,6 +462,7 @@ D3000000 1495ED28
 30000000 0000000F
 00000000 0000000F
 D0000000 00000000
+{Because if you cheat your money, you usually ignore jewels...}
 
 [10+ Perfect excavations]
 D3000000 1495ED1C
@@ -416,3 +472,6 @@ D0000000 00000000
 30000004 0000000A
 00000004 0000000A
 D0000000 00000000
+
+[--]
+

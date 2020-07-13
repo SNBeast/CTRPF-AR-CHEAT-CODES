@@ -9,6 +9,7 @@
 
 [0 Ruppees in Bank]
 10777408 00000000
+{In case you oops'd and didnt get the rewards for deposits}
 
 [Refill Hearts (Max)]
 10776314 00000140
@@ -24,6 +25,8 @@ D0000000 00000000
 8077631F FF000000
 20776317 00000060
 D2000000 00000000
+
+[++Unrandomize Randomized Numbers++]
 
 [Bomber's code = 12345]
 006E2220 05040302
@@ -65,6 +68,10 @@ D2000000 00000000
 10778FE6 05040707
 20778FE8 00000007
 
+[--]
+
+[++Time/day codes++]
+
 [Timechanger (Press R) 1.0]
 DD000000 00000100
 207751F9 00000011
@@ -72,6 +79,8 @@ DD000000 00000100
 [Daychanger (Press R) 1.0]
 DD000000 00000100
 207751EC 00000011
+
+[++Specific time/day lock codes++]
 
 [Set Time to 10AM]
 207761F9 0000006B
@@ -90,6 +99,22 @@ DD000000 00000100
 
 [Set to Day 3]
 207761EC 00000003
+
+[--]
+
+[--]
+
+[++Code editing required++]
+
+[Namechanger]
+00775300 11112222
+00775304 33334444
+00775308 55556666
+0077530C 77778888
+
+[--]
+
+[++Item codes++]
 
 [Max/Inf Arrows]
 80776391 FF000000
@@ -118,6 +143,10 @@ DD000000 00000100
 [Max/Inf Powder Keg]
 8077639C FF000000
 2077639C 00000063
+
+[--]
+
+[++Inventory codes++]
 
 [Have all masks]
 D5000000 00000032
@@ -151,6 +180,10 @@ D2000000 00000000
 20776389 00000012
 2077638A 00000012
 
+[--]
+
+[++Gear/collectables codes++]
+
 [Have Enhanced Defense]
 20775320 00000001
 
@@ -171,6 +204,10 @@ D2000000 00000000
 [All Stray Fairies]
 207763E8 0F0F0F0F
 
+[--]
+
+[++Novelty codes++]
+
 [L+A to Moon Jump]
 DD000000 00000201
 68363784 00000000
@@ -179,6 +216,7 @@ B8363784 00000000
 B00004AC 00000000
 1000006A 00004100
 D2000000 00000000
+{Now with fixed pointer (doesn't break after day change)}
 
 [Time always slowed]
 007761E8 FFFFFFFF
@@ -202,43 +240,32 @@ D2000000 00000000
 [Great Fairy Sword on B Button v1.1]
 2077632A 00000050
 
-[Easy Town Shooting Gallery Mini Game (Shoot 1 octorok, then let time run out)]
+[++Minigame codes++]
+
+[Easy Town Shooting Gallery Mini Game]
 004E441C E2811032
+{Shoot 1 octorok, then let time run out}
 
-[Easy Swamp Shooting Gallery Mini Game (Shoot 1 deku scrub, then let time run out)]
+[Easy Swamp Shooting Gallery Mini Game]
 004FA838 E2812B1E
+{Shoot 1 deku scrub, then let time run out}
 
-[Easy Beaver Swimming Mini Game (Swim to end)]
+[Easy Beaver Swimming Mini Game]
 0036A358 E1A00000
 0036A360 E1A00000
+{Swim to end}
 
-[Easy Boat & Jump Mini Games (Let time run out)]
+[Easy Boat & Jump Mini Games]
 00171780 E3A00015
+{Let time run out}
 
 [Easy Deku Rupee Game]
 18536224 0000012C
 
 [Auto Win All Honey And Darling Games]
 00458774 E2800000
+{Instant effect}
 
-[Original Deku Link Walk Acceleration (v1.0)]
-107aea60 000000C8
+[--]
 
-[Original Deku Link Walk Acceleration (v1.1)]
-107afa60 000000C8
-
-[Original Zora Fast Swim (v1.0)]
-00220F60 E3A00001
-002210DC E3A00001
-001FFDBC E3A00001
-202210FD 00000000
-201FFCB1 00000000
-00220F00 EA000009
-
-[Original Zora Fast Swim (v1.1)]
-00220F50 E3A00001
-002210CC E3A00001
-001FFDA8 E3A00001
-202210ED 00000000
-201FFCA1 00000000
-00220EF0 EA000009
+[--]

@@ -31,6 +31,20 @@
 [No Outlines v1.2]
 0042FBA4 E320F000
 
+[EXP multiplier after battle ×100 v1.2] 
+105BBD40 000002B2 
+105BBD42 0000E1D0 
+105BBD44 00004002 
+105BBD46 0000E92D 
+105BBD48 00001064
+105BBD4A 0000E3A0 
+105BBD4C 00000190 
+105BBD4E 0000E000 
+105BBD50 00008002 
+105BBD52 0000E8BD 
+104ACD38 00003C00 
+104ACD3A 0000EB04
+
 [No Softban v1.1 (restart to turn off)]
 204790A8 00000001
 
@@ -1635,3 +1649,49 @@ D3000000 00000000
 005BBBBC E8BD801E
 08087FB8 EBF976F4
 D0000000 00000000
+
+[++Danger Zone++]
+
+[++These codes can create illegal pokemon catch conditions. Use at your own risk++]
+
+[Wild Pokemon Modifier v1.0 ONLY]
+005B9FC0 E1D500B0 
+005B9FC4 E59F000C 
+005B9FC8 E5C40004 
+005B9FCC E59F0000 
+005B9FD0 E12FFF1E 
+005B9FD4 00000001 
+005B9FD8 00000032 
+003A7294 EB084B49 
+003A72A4 EB084B45 
+003A72C0 EB084B3E
+{Enter Hexadecimal values for Pokemon National Pokedex number (end of 005B9FD4 line), and level number (end of 005B9FD8 line)}
+
+[Wild Pokemon Modifier v1.2] 
+005BBFC0 E92D400E 
+005BBFC4 E59F0014 
+005BBFC8 E3500000 
+005BBFCC 18BD800E 
+005BBFD0 E59F000C 
+005BBFD4 EBF90532 
+005BBFD8 E2800001 
+005BBFDC E8BD800E 
+005BBFE0 00000001 
+005BBFE4 00000327 
+003A86A0 EB084E46 
+003A86B0 E1D400B0 
+003A86CC E1D400B0
+{use hexadecimal converted number for National Pokedex number for corresponding Pokémon (end of the 005BBFE0 line)}
+
+
+[Wild Pokemon LV v1.2] 
+003A8688 E3A00032
+{use hexadecimal converted number for corresponding level (last 2 characters of code)}
+
+[Wild Pokemon Forms v1.2] 
+003A873C C3A00001
+{use hexadecimal converted number for corresponding form number (last 2 characters of code)}
+
+[--]
+
+[--]

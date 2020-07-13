@@ -1,3 +1,5 @@
+
+
 [65,500 EXP After Battle]
 0847F5B8 0000FFDC
 

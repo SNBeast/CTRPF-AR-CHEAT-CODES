@@ -1,9 +1,11 @@
-[99999 RUPEES (Version 2.1 n3DS)]
+[++Version 2.1 n3DS++]
+
+[99999 RUPEES]
 D3000000 32C82520
 00000000 0001869F
 D2000000 00000000
 
-[All owned items -> 15 (Version 2.1 n3DS)]
+[All owned items -> 15]
 D3000000 32C82527
 C0000000 00000043
 80000000 FF000000
@@ -12,7 +14,7 @@ D0000000 00000000
 DC000000 00000001
 D1000000 00000000
 
-[Market has a material you're missing (Version 2.1 n3DS)]
+[Market has a material you're missing]
 D3000000 32C8252A
 D5000000 0000001A
 C0000000 00000040
@@ -31,16 +33,18 @@ F6000000 00000017
 D8000000 00000000
 D0000000 00000000
 DFFFFFFF 00000000
+{Shop slot 4 is replaced if there is a material you have 0 of. Enter any shop to update the market stock. Code does nothing if you have every material.}
 
-[Friendly Token available at market (Version 2.1 n3DS)]
+[Friendly Token available at market]
 D3000000 31A077A6
 10000000 00000018
 
-[Reset Street Market stock (Version 2.1 n3DS)]
+[Reset Street Market stock]
 D3000000 31A077AE
 20000000 00000000
+{Enter any shop to remove sold-out signs}
 
-[Sync solo/multi progress (Version 2.1 n3DS)]
+[Sync solo/multi progress]
 D3000000 31A060EC
 C0000000 00000008
 D9000000 00000000
@@ -61,8 +65,9 @@ D1000000 00000000
 D3000000 31A0634C
 D6000000 00000000
 D6000000 00000000
+{Completed level progress applies to both checklists}
 
-[All Drablands Challenges Done (Solo) (Version 2.1 n3DS)]
+[All Drablands Challenges Done (Solo)]
 D3000000 31A060EC
 C0000000 00000004
 90000000 FFE1001E
@@ -134,16 +139,21 @@ DC000000 00000004
 D1000000 00000000
 D3000000 31A06350
 D6000000 00000000
+{Complete all 4 levels normally to activate for each area. Use the synch code to apply to Multi, too}
 
-[Max Hero Points (Version 2.1 n3DS)]
+[Max Hero Points]
 D3000000 31A0611C
 00000000 7FFFFFFF
 
-[Infinite SP (Version 2.1 n3DS)]
+[Infinite SP]
 D3000000 328496C4
 30000000 44160000
 00000000 44160000
 D2000000 00000000
+
+[--]
+
+[++Other codes++]
 
 [B+R 70k Rupees In town]
 DD000000 00000102
@@ -259,3 +269,5 @@ D2000000 00000000
 
 [Enemy One Hit KO]
 00591FC8 E5852554
+
+[--]

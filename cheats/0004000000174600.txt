@@ -1,3 +1,7 @@
+[++Verified working on latest version++]
+
+[++Dungeon stat codes++]
+
 [Full HP]
 D3000000 00A130D0
 C0000000 00000003
@@ -24,6 +28,8 @@ C0000000 00000003
 DC000000 00000108
 D1000000 00000000
 
+[--]
+
 [Max deposited money]
 00A14ADC 0098967F
 
@@ -35,7 +41,7 @@ D1000000 00000000
 00A14AC8 0000C350
 D0000000 00000000
 
-[Item quantities x99 (Affects shops, storage, and pouch. Only use after all purchases are complete.)]
+[Item quantities x99]
 D3000000 0886AD90
 C0000000 000001F0
 40000000 00000000
@@ -43,8 +49,9 @@ C0000000 000001F0
 D0000000 00000000
 DC000000 00000040
 D1000000 00000000
+{Affects shops, storage, and pouch. Only use after all purchases are complete.}
 
-[All stored items x1 (Use to fix being unable to buy from the Goldbar shop)]
+[All stored items x1]
 D3000000 0886AD90
 C0000000 000001F0
 40000000 00000000
@@ -52,6 +59,11 @@ C0000000 000001F0
 D0000000 00000000
 DC000000 00000040
 D1000000 00000000
+{Use to fix being unable to buy from the Goldbar shop}
+
+[--]
+
+[++Other codes++]
 
 [Max EXP for Slots 1 through 3 v1.0]
 00A130E4 004C4B40
@@ -187,3 +199,5 @@ D0000000 00000000
 [Max Speed for Slot 3 Pokemon v1.0]
 00A1334C 000000FF
 00A13350 000000FF
+
+[--]

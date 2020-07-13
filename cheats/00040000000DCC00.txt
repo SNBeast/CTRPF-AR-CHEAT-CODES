@@ -1,3 +1,5 @@
+
+
 [Max Chain Blast Gauge]
 D3000000 10000000
 05D25A04 00000003

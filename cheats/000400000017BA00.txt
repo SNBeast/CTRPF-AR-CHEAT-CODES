@@ -1,3 +1,9 @@
+
+
+[Money and infinite]
+28FDC878 0000007F
+08FDC878 77BFFFFF
+
 [99999 workers]
 08FF2AC0 0000270F
 

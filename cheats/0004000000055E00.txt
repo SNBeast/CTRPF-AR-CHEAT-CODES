@@ -1,3 +1,23 @@
+
+
+[No outlines 1.5]
+00362ED8 00000000
+00362EDC 00000000
+
+[Outlines 1.5]
+00362ED8 BF800000
+00362EDC 3F800000
+{Re-activates outlines after the above code}
+
+[No outlines 1.0]
+00361D34 00000000
+00361D38 00000000
+
+[Outlines 1.0]
+00361D34 BF800000
+00361D38 3F800000
+{Re-activates outlines after the above code}
+
 [Max/Inf HP v1.5]
 481FB284 08200000
 481FB624 08200000
