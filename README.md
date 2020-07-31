@@ -4,7 +4,7 @@
 
 Hello, it's the new-new, unofficial owner of this archive ;P. I am keeping this repo up to date with the cheats in Sharkive and Checkpoint (whichever is newer at time of checking), and updating it for readability and pushing the recommended way of usage. This is an individual effort, and do not expect it to last a seriously long time. This is provided solely for convenience as the cheats here could just be updated by downloading Sharkive's source, copying the 3ds folder, and renaming it to "cheats" and dragging it to your SD root, or doing the same with Checkpoint except the 3ds folder is within the Sharkive folder.
 
-Thank you to JourneyOver for the original repo, without which I wouldn't know that there was a version of Luma3DS 9.1 with the cheat loader (since 9.1 and above is what can load on FIRM 11.8+), and thank you to iSharingan for your earnest attempt to have the repo last a little longer.
+Thank you to JourneyOver for the original repo, Nanquitas for making the original plugin, mariohackandglitch for the newer plugin version, and iSharingan for keeping the repo alive.
 
 <b>[Here's Sharkive for those wanting to contribute there, too](https://github.com/FlagBrew/Sharkive)</b>
 
@@ -12,21 +12,21 @@ Thank you to JourneyOver for the original repo, without which I wouldn't know th
 
 ### Using Luma3DS with Plugin Loader (recommended)
 
-1. Download `Luma3DS 9.1 - Plugin loader.zip` & `ActionReplay.zip`, and insert the 3DS's SD into the PC.
+1. Download `Luma3DS 10.1.3 - Plugin loader.zip` & `ActionReplay.zip`, and insert the 3DS's SD into the PC.
 
-- `ActionReplay.zip` and `Luma3DS 9.1 - Plugin loader.zip` are in this repository. Use these ones and not the ones in the CTRPF Blank Plugins GBATemp post (which still has an outdated Luma build not compatible with System Menus 11.8+).
+- `ActionReplay.zip` and `Luma3DS 10.1.3 - Plugin loader.zip` are in this repository. Use these ones and not the ones in the CTRPF Blank Plugins GBATemp post (which still has an outdated Luma build not compatible with System Menus 11.8+).
 
 2. Make sure you already installed the latest `Boot9strap` and `Luma CFW` and have a firmware of 11.4 or higher.
-3. Rename any existing `boot.firm` in the root of your SD card to `boot.firm.bak` in case you want to go back, then drag the `boot.firm` from `Luma3DS 9.1 - Plugin loader.zip` into the root of your SD card
+3. Rename any existing `boot.firm` in the root of your SD card to `boot.firm.bak` in case you want to go back, then drag the `boot.firm` from `Luma3DS 10.1.3 - Plugin loader.zip` into the root of your SD card
 4. 
  - If you want the cheats for all the games and generally want everything easier on you (recommended obviously):
-   - I. Place the contents from `ActionReplay.zip` into `sd:/luma/plugins/ActionReplay/`.
+   - I. Place the contents from `ActionReplay.zip` into `sd:/luma/plugins/`.
    - II. Download this repo and copy the `cheats` folder to `sd:/`.
   
  - If you want a specific game's cheats and want to make this process hard on yourself:
    - I. Find the game's title ID. You can find the title id of many games [here](http://www.3dsdb.com/) or by doing some shenanigans in GodMode9, but cleaning up this README is already above my paygrade and you shouldn't be following this path anyway. :P
-   - II. Place the contents from `ActionReplay.zip` into `sd:/luma/plugins/<Title ID>/`, and rename `ActionReplay.plg` to `plugin.plg`
-   - III. Download this repo and copy the `<Title ID>.txt` in the `cheats` folder to `sd:/luma/plugins/<Title ID>/`, along side `plugin.plg` from step #II and rename the `<Title ID>.txt` you just copied over to `cheats.txt`.
+   - II. Place the contents from `ActionReplay.zip` into `sd:/luma/plugins/<Title ID>/`
+   - III. Download this repo and copy the `<Title ID>.txt` in the `cheats` folder to `sd:/luma/plugins/<Title ID>/`, along side `ActionReplay.plg` from step #II and rename the `<Title ID>.txt` you just copied over to `cheats.txt`.
 
 5. Safely eject the SD card, insert it in the 3DS, and start the system.
 
@@ -44,7 +44,7 @@ Thank you to JourneyOver for the original repo, without which I wouldn't know th
 
  You'll need to know the TitleID of your game. [This site](https://hax0kartik.github.io/3dsdb/) may have it. If not, there's some shenanigans you can do in GodMode9 to get it, but cleaning up this README is already above my paygrade :P.
 
-- If you decide to want to use `LUMAS3DS 9.1 Plugin Loader` alongside with `BOOTNTR` follow from the first step otherwise start at the second step!
+- If you decide to want to use `LUMA 3DS 10.1.3 Plugin Loader` alongside with `BOOTNTR` follow from the first step otherwise start at the second step!
 
 1. Make sure to disable the plugin loader from Rosalina if you're using the `boot.firm` of `Luma3DS with Plugin Loader`
 2. Download `ActionReplay.zip`
@@ -115,7 +115,7 @@ or
 
 2. Where should I put my `cheats.txt` or `<Title ID of the game>.txt`?
 
-- Put them in `SD/plugin/<Title ID of the game folder>/cheats.txt`
+- Put them in `sd:/plugin/<Title ID of the game folder>/cheats.txt`
 - If you're using the Luma Plugin Loader, Put them in `sd:/luma/plugins/<title ID of the game folder>/cheats.txt`
 - Or put them in `sd:/cheats/<Title ID of the game>.txt`
 
@@ -125,10 +125,9 @@ or
 
 4. Why isn't the plugin working?
 
-- `LUMA3DS 9.1 Plugin Loader` only recognises `CTRPF (AR) Plugins` called `plugin.plg` at `sd:/plugin/<title ID of the game folder/` and `ActionReplay.plg` at `sd:/luma/plugins/ActionReplay`
-- Make sure your using only 1 `CTRPF (AR) Plugin`! And No Other Plugins included alongside it! (Such as `Gateshark2NTR`, `libshark2NTR` or any other `Plugins`).
+- `LUMA3DS 10.1.3 Plugin Loader` only recognizes `CTRPF 3gx Plugins` at `sd:/luma/plugins/<title ID of the game>/<any name>.3gx` and `default.3gx` at `sd:/luma/plugins/`
+- Make sure your using only 1 `CTRPF Plugin`! And No Other Plugins included alongside it! (Such as `Gateshark2NTR`, `libshark2NTR` or any other `Plugins`).
 - If it gives you an error, try Deleting the `CTRPFData.bin` if it exists.
-- If by chance you can't get `CTRPluginFramework` to come up after loading the game and having `plugin loaded` show, try using the `ActionReplay_ALT`.
 
 5 This repo doesn't have cheats for the game I want!
 
